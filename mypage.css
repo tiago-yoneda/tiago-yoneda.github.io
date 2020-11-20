@@ -6,6 +6,7 @@ body{
 
 h1{
     color:#db222a;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2{
@@ -20,18 +21,14 @@ ul{
     font-family:monospace;
 }
 
-#links{
+.links{
     text-align:left;
     color:darkred;
-    font-size:1.4em;
+    font-size:1.2em;
 }
 
-#apresentacao{
+.apresentacao{
     font-size:2.2em;
     font-weight:600;
     font-family:monospace;
-}
-
-h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
