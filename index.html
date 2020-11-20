@@ -3,30 +3,53 @@
     <head>
         <meta charset="UTF-8">
         <title>Portifólio Tiago Minoru Yoneda</title>
-        <link rel="stylesheet" type="text/css" href="mypage.css">
+        <link rel="stylesheet" type="text/css" href="./css/mypage.css">
     </head>
     <body>
-        <div>
-        <h1 class="TOP">Tiago Minoru Yoneda</h1>
+        <div class="topnav">
+            <a class="TOP">Home</a>
+            <a href="#habilidades"> Habilidades</a>
+            <a href="#links"> Links</a>
+            <a href="#end" style="float:right">End</a>
 
-            <img src="me.jpg" width=250px alt="Passei que fiz no japão no Fushimi Inari Jinjya">
+        </div>
+    
+        <div class="left-side">
+       
+        <div class="intro">
+                <h1>Tiago Minoru Yoneda</h1>
 
-            <p class="apresentacao">Nascido em São Paulo, 33 anos. Moro ainda em São Paulo, nas proximidades da USP. Atualmente estudante de desenvolvimento Web Full Stack na Trybe. </p>
+                <img class="profile-pic" src="./imagens/me.jpg" alt="Passeio que fiz no japão no Fushimi Inari Jinjya">
+                <p>Nascido em São Paulo, 33 anos. Moro ainda em São Paulo, nas proximidades da USP. Atualmente estudante de desenvolvimento Web Full Stack na Trybe.</p>
+            </div>
+
+            <div class='links' id="links">
+                <div>
+                    <a href="https://www.linkedin.com/in/tiago-yoneda/" target="_blank">
+                        <img class="icons" src="./imagens/linkedin.svg">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/tiago-yoneda" target="_blank">
+                        <img class="icons" src="./imagens/github.svg">
+                    </a>
+                </div>
+            </div>  
         </div>
-        <div class="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Bastante proficiente em Matemática</li>
-            <li>Fluente em Inglês</li>
-            <li>Conversasão básica em Japonês</li>
-            <li>Gosto bastante de programação</li>
-        </ul>
+
+        <div class="right-side">
+            <div class="habilidades" id="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Bastante proficiente em Matemática</li>
+                    <li>Fluente em Inglês</li>
+                    <li>Conversasão básica em Japonês</li>
+                    <li>Gosto bastante de programação</li>
+                </ul>
+            </div>
+
+            <p id="end"><a href="#TOP">TOP</a></p>
         </div>
-        <div class='links'>
-        <p><a href="https://www.linkedin.com/in/tiago-yoneda/" target="_blank">View my Linkedin Profile</a></p>
-        <p><a href="https://github.com/tiago-yoneda" target="_blank">View my Github Profile</a></p>
-        <p style="text-align: center"><a href="#TOP">TOP</a></p>
-        </div>  
     </body>
 
 </html>

@@ -1,0 +1,91 @@
+body{
+    background-color:#89c2d9;
+    text-align:center;
+    color:#3c6e71;
+    }
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seriu
+}
+
+h2{
+    color:darkslategray;
+    font-size:1.5em;
+}
+
+ul{
+    list-style-type:none;
+    font-weight:600;
+    font-size:1.2em;
+    font-family:monospace;
+}
+
+.links{
+    text-align:left;
+    color:darkred;
+    font-size:1.2em;
+    }
+    
+.left-side{
+    width:20%;
+    font-size:20px;
+    font-weight:600;
+    font-family:monospace;
+    float: left;
+}
+
+.links div{
+    display: inline-block;
+    
+}
+
+.intro h1{
+    color:darkslategray;
+    font-size:30px;
+}
+.profile-pic{
+    border-radius: 200px;
+    width: 80%;
+    
+}
+.icons{
+    width:50px;
+    border-radius:50px;
+}
+
+#navigator ul li a{
+    display:inline-block;
+    text-decoration:none;
+}
+
+.right-side{
+    width: 80%;
+    float: right;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #215f88;
+  }
+
+.topnav a {
+    float: left;
+    color: #99acc2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: #99acc2;;
+    color: #215f88;
+}
+
+
+#end a{
+    
+    font-size:15px;
+    text-decoration: none;
+}
