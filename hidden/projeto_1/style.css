@@ -1,0 +1,129 @@
+a {
+  text-decoration: none;
+}
+
+li a:hover {
+  background: rgb(74 , 78 , 105);
+  color: rgb(132 , 169 , 140);
+}
+
+article p {
+  text-indent: 1.5em;
+  padding: 10px;
+}
+
+aside {
+  box-shadow: 5px 5px 15px rgb(57 , 156 , 107);
+  padding: 10px;
+  width: 30%;
+  float: right;
+  border-left: 1px solid rgb(57 , 156 , 107);
+  border-top: 1px solid rgb(57 , 156 , 107);
+}
+
+body {
+  padding: 120px 0 0;
+  background-color: rgb(253 , 251 , 251);
+  color: rgb(74 , 78 , 105);
+  margin: 0;
+}
+
+#breve {
+  font-size: 0.9em;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande,
+    Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  color: black;
+  font-family: Courier New, Courier, monospace;
+  font-size: 0.8em;
+  text-align: right;
+  float: right;
+  width: 100%;
+}
+
+header {
+  background: rgb(132 , 169 , 140);
+  font-size: 18px;
+  height: auto;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 0;
+}
+
+header h1 {
+  line-height: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2:before {
+  display: block;
+  content: ' ';
+  margin-top: -115px;
+  height: 115px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+a:before {
+  display: block;
+  content: ' ';
+  margin-top: -95px;
+  height: 95px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.icons {
+  border-radius: 150px;
+  width: 50px;
+}
+
+.icons:hover {
+  background-color: rgb(57 , 156 , 107);
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 20%;
+}
+
+.lado-direito {
+  float: left;
+  width: 60%;
+}
+
+.contato div {
+  display: inline-block;
+}
+
+#minha_foto {
+  border-radius: 150px;
+  margin: auto;
+  display: block;
+  max-width: 50%;
+}
+
+.navbar {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+  display: block;
+  padding: 0 14px;
+}
+
+table {
+  margin: auto;
+  border-top: 3px solid rgb(57 , 156 , 107);
+  border-left: 3px solid rgb(57 , 156 , 107);
+  box-shadow: 5px 5px 15px rgb(57 , 156 , 107);
+}
