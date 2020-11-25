@@ -1,0 +1,107 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color:black;
+    color:#adadad;
+    }
+
+.navigator {
+    font-size:20px;
+    font-family:monospace;
+    width: 50%;  
+    text-align:center;
+    margin: 0px auto;
+}
+
+h1{
+    color:#80ffdb;
+    font-size:25px;
+    padding:3px;
+}
+
+h2{
+    color:#80ffdb;
+    font-size:20px;
+}
+h3{
+    color:#80ffdb;
+    font-size:18px;
+}
+
+li{
+    display:inline-block;
+    list-style:none;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color:#80ffdb;
+}
+
+a:hover{
+    background-color: #80ffdb;;
+    color: black;
+}
+
+table {
+    width:100%;
+    text-align:center;
+    box-shadow:3px 3px;
+    border: 3px solid gray;
+}
+
+td{
+    color:#b7e4c7;
+}
+
+.taxonomia{
+    font-size:20px;
+    color:#48cae4;
+}
+
+.sidebar{
+    float:right;
+    width:20%;
+    margin:5px;
+    border: 5px dashed black;
+    
+}
+
+.images{
+    max-width: 100%;
+    display: block;
+}
+
+section{
+    padding:5px;
+    margin: 10px 400px 30px 10px; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px
+}
+
+section img{
+    max-width:30%;
+    border-radius:200px;
+}
+
+section div{    
+    text-align:center;
+    display:block;
+    padding:5px;
+}
+
+section.references{
+    font-size:.8em;
+}
+
+footer{
+    font-size:0.8em;
+    text-align:right;
+}
+
+.end {
+    text-align:center;
+    display:block;
+    margin:0px auto;
+    width:10%
+}
