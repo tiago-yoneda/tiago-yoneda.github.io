@@ -1,0 +1,55 @@
+button {
+    height:auto;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+
+.categories {
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.clear {
+    text-shadow:1px 1px black;
+}
+
+.conteudo {
+    margin:auto;
+    width:50%;
+}
+
+.conteudo div {
+    margin-bottom:3em;
+}
+
+.paragraph {
+    text-indent:20px;
+    line-height:normal;
+}
+
+.preferenceButtons {
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    margin:auto;
+}
+
+.opening {
+    font-size:2em;
+    text-align:center;
+}
+
+h1 {
+    font-size: 1.0em;
+}
+
+h5 {
+    font-size: 0.7em;
+}
+
+h6 {
+    font-size: 0.5em;
+}

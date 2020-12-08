@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' href='style.css'>
+        <title>Bloco 5.4 - Exercício 1</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Texturina:ital,wght@1,100&family=Yeon+Sung&display=swap" rel="stylesheet">
+    </head>    
+    <body>
+        <section class='preferenceButtons'>
+            <div id='backgroundSetup' class='categories'>
+                <span>Background Color</span>
+                <button style='background-color: #a5a58d'>#a5a58d</button>
+                <button style='background-color: #5390d9'>#5390d9</button>
+                <button style='background-color: #002855; color: #eff7f6'>#002855</button>
+                <button style='background-color: #333533; color: #eff7f6'>#333533</button>
+            </div>
+            <div id='fontColorSetup' class='categories'>
+                <span>Text Color</span>
+                <button class='clear' style='color:#dbe7e4'>#dbe7e4</button>
+                <button class='clear' style='color:#bcd4e6'>#bcd4e6</button>
+                <button style='color:#ff5400'>#ff5400</button>
+                <button style='color:#212d40'>#212d40</button>
+            </div>
+            <div id='fontSizeSetup' class='categories'>
+                <span>Font Size</span>
+                <button>18px</button>
+                <button>20px</button>
+                <button>23px</button>
+                <button>25px</button>
+            </div>
+            <div id='spacingSetup' class='categories'>
+                <span>Line Spacing</span>
+                <button>1.0</button>
+                <button>normal</button>
+                <button>1.4</button>
+                <button>1.8</button>
+            </div>
+            <div id='fontSetup' class='categories'>
+                <!-- fonts to use 'Indie Flower' 'Lobster' 'Texturina' 'Yeon Sung' -->
+                <span>Font Family</span>
+                <button style='font-family: Indie Flower'>Indie Flower</button>
+                <button style='font-family: Lobster'>Lobster</button>
+                <button style='font-family: Texturina'>Texturina</button>
+                <button style='font-family: Yeon Sung'>Yeon Sung</button>
+            </div>
+        </section>
+
+        <section class='opening'>
+        <h1>Lorem Ipsum</h1>
+        <h5>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h5>
+        <h6>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h6>
+        </section>
+        <section class='conteudo'>
+            <div>
+                <h3 class='subHeader'>What is Lorem Ipsum?</h3>
+
+                <p class='paragraph'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p:>
+            </div>
+            <div>
+                <h3 class='subHeader'>Where does it come from?</h3>
+
+                <p class='paragraph'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                <p class='paragraph'>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
+            <div>
+                <h3 class='subHeader'>Why do we use it?</h3>
+                <p class='paragraph'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+            <div>
+                <h3 class='subHeader'>Where can I get some?</h3>
+                <p class='paragraph'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+        </section>
+        <footer>
+            <p>Author: Tiago Minoru Yoneda</p>
+            <a target='_blank' href='https://github.com/tiago-yoneda'>GitHub</a>
+        </footer>
+        <script src='script.js'></script>
+        <script>
+        window.addEventListener('load',function(){
+            let verify = localStorage.getItem('backgroundColor') ? true :false ;
+            if (verify) {
+                let startBgColor = localStorage.getItem('backgroundColor');
+                changeBgColor(startBgColor);
+            }
+            verify = localStorage.getItem('fontColor') ? true :false ;
+            if (verify) {
+                let startFontColor = localStorage.getItem('fontColor');
+                changeFontColor(startFontColor);
+            }
+            verify = localStorage.getItem('fontSize') ? true :false ;
+            if (verify) {
+                let startFontSize = localStorage.getItem('fontSize');
+                changeFontSize(startFontSize);
+            }
+            verify = localStorage.getItem('lineHeight') ? true :false ;
+            if (verify) {
+                let startLineHeight = localStorage.getItem('lineHeight')
+                changeLineSpacing(startLineHeight);
+            }
+            verify = localStorage.getItem('fontFamily') ? true :false ;
+            if (verify) {
+                let startFontFamily = localStorage.getItem('fontFamily')
+                changeFontFamily(startFontFamily);
+            }
+        })</script>
+    </body>
+</html>
