@@ -1,0 +1,57 @@
+body {
+    background-color:#89c2d9;
+    text-align:center;
+    color:#3c6e71;
+    }
+
+a {
+    text-decoration: none;
+}
+
+.project-container{
+    margin:auto;
+    padding-top:50px;
+    width:80%;
+}
+
+.exercises-container {
+    margin:auto;
+    padding-top:50px;
+    width:80%;
+}
+
+
+table { 
+    margin:auto;
+}
+th {
+    padding:10px 20px;
+}
+td {
+    padding: 5px;
+}
+.topnav  {
+    overflow: hidden;
+    background-color: #215f88;
+  }
+
+.topnav a  {
+    float: left;
+    color: #99acc2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.topnav a:hover  {
+    background-color: #99acc2;;
+    color: #215f88;
+}
+
+
+#end a {
+    font-size:15px;
+    text-decoration: none;
+}
