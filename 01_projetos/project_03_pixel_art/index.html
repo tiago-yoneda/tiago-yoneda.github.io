@@ -64,7 +64,6 @@
                     } else {
                     newLine.className = 'color';
                     }
-
                     newLine.style.backgroundColor = starterColors[idx];
                     newLine.innerText = starterColors[idx];
                     document.querySelector('.color-palette').appendChild(newLine);
@@ -86,6 +85,7 @@
                     const selectedColor = self.target.style.backgroundColor;
                     sessionStorage.selectedColor = selectedColor;
                     self.target.classList.toggle('selected');
+                    document.querySelector('.pixel-board').style.border = `8px solid ${selectedColor}`
                 }
 
                 // coloca o evento de clicar na palette e escolher a cor.
