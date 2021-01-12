@@ -43,7 +43,7 @@ function constructBoard(baseDoQuadro) {
     const newLine = document.createElement('div');
     newLine.className = 'linha';
     newLine.style.height = '40px';
-    newLine.style.width = `${baseDoQuadro * 42}px`;
+    newLine.style.width = 'fit-content';
     document.querySelector('#pixel-board').appendChild(newLine);
   }
   const myLines = document.querySelectorAll('.linha');
