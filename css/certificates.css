@@ -20,7 +20,6 @@ a {
   width:80%;
 }
 
-
 table { 
   margin:auto;
 }
@@ -50,8 +49,20 @@ td {
   color: #215f88;
 }
 
-
 #end a {
   font-size:15px;
   text-decoration: none;
+}
+
+.certificates {
+  display:flex;
+  flex-direction: column;
+}
+
+.certificates a {
+  border: 3px solid rgba(71, 49, 42, 0.979);
+  box-shadow: -3px 3px black;
+  font-size: 1.3em;
+  margin: 20px auto;
+  width: 450px;
 }
