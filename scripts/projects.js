@@ -79,6 +79,14 @@ const myProjects = [
     repoLink: 'https://github.com/tryber/sd-09-project-zoo-functions/pull/5',
     readMeLink: 'https://github.com/tryber/sd-09-project-zoo-functions/',
   },
+  {
+    id:'project11',
+    name:'Project 11 - Shopping Cart',
+    dataDaEntrega: '02/02/2021',
+    dataDaVersao: '02/02/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-shopping-cart/pull/15',
+    readMeLink: 'https://github.com/tryber/sd-09-project-shopping-cart',
+  },
 ];
 
 const myProjectsWorking = [
@@ -109,6 +117,10 @@ const myProjectsWorking = [
   {
     id:'project08',
     link:'../01_projetos/project_08_facebook_signup/index.html',
+  },
+    {
+    id:'project11',
+    link:'../01_projetos/project_11_shopping_cart/index.html',
   },
 ]
 
