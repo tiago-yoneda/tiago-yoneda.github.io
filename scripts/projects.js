@@ -1,7 +1,7 @@
-const myProjects = [
+const projects_module1= [
   {
     id:'project01',
-    name:'Projeto 01 - Lessons Learned',
+    name:'Projeto 1.01 - Lessons Learned',
     dataDaEntrega: '25/11/2020',
     dataDaVersao: '06/12/2020',
     repoLink: 'https://github.com/tryber/sd-09-project-lessons-learned/pull/9',
@@ -9,7 +9,7 @@ const myProjects = [
   },
   {
     id:'project02',
-    name:'Project 02 - Playground Functions',
+    name:'Projeto 1.02 - Playground Functions',
     dataDaEntrega: '01/12/2020',
     dataDaVersao: '01/12/2020',
     repoLink: 'https://github.com/tryber/sd-09-project-playground-functions/pull/5',
@@ -17,7 +17,7 @@ const myProjects = [
   },
   {
     id:'project03',
-    name:'Projeto 03 - Pixel Art',
+    name:'Projeto 1.03 - Pixel Art',
     dataDaEntrega: '09/12/2020',
     dataDaVersao: '10/12/2020',
     repoLink: 'https://github.com/tryber/sd-09-project-pixels-art/pull/6',
@@ -25,7 +25,7 @@ const myProjects = [
   },
   {
     id:'project04',
-    name:'Project 04 - To do List',
+    name:'Projeto 1.04 - To do List',
     dataDaEntrega: '10/12/2020',
     dataDaVersao: '10/12/2020',
     repoLink: 'https://github.com/tryber/sd-09-project-todo-list/pull/2',
@@ -33,7 +33,7 @@ const myProjects = [
   },
   {
     id:'project05',
-    name:'Projeto 05 - Meme Generator',
+    name:'Projeto 1.05 - Meme Generator',
     dataDaEntrega: '10/12/2020',
     dataDaVersao: '11/12/2020',
     repoLink: 'https://github.com/tryber/sd-09-project-meme-generator/pull/3',
@@ -41,7 +41,7 @@ const myProjects = [
   },
   {
     id:'project06',
-    name:'Projeto 06 - Color Guess',
+    name:'Projeto 1.06 - Color Guess',
     dataDaEntrega: '16/12/2020	',
     dataDaVersao: '16/12/2020',
     repoLink: 'https://github.com/tryber/sd-09-project-color-guess/pull/10',
@@ -49,7 +49,7 @@ const myProjects = [
   },
   {
     id:'project07',
-    name:'Projeto 07 - Mystery Letter',
+    name:'Projeto 1.07 - Mystery Letter',
     dataDaEntrega: '25/12/2020',
     dataDaVersao: '30/12/2020',
     repoLink: 'https://github.com/tryber/sd-09-project-mistery-letter/pull/17',
@@ -57,7 +57,7 @@ const myProjects = [
   },
   {
     id:'project08',
-    name:'Projeto 08 - em dupla - Facebook Signup',
+    name:'Projeto 1.08 - em dupla - Facebook Signup',
     dataDaEntrega: '11/01/2021',
     dataDaVersao: '12/01/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-facebook-signup/pull/4',
@@ -65,7 +65,7 @@ const myProjects = [
   },
   {
     id:'project09',
-    name:'Projeto 09 - Unit Tests',
+    name:'Projeto 1.09 - Unit Tests',
     dataDaEntrega: '18/01/2021',
     dataDaVersao: '18/01/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-js-unit-tests/pull/4',
@@ -73,7 +73,7 @@ const myProjects = [
   },
   {
     id:'project10',
-    name:'Project 10 - Zoo Functions',
+    name:'Projeto 1.10 - Zoo Functions',
     dataDaEntrega: '25/01/2021',
     dataDaVersao: '26/01/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-zoo-functions/pull/5',
@@ -81,15 +81,23 @@ const myProjects = [
   },
   {
     id:'project11',
-    name:'Project 11 - Shopping Cart',
+    name:'Projeto 1.11 - Shopping Cart',
     dataDaEntrega: '02/02/2021',
     dataDaVersao: '02/02/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-shopping-cart/pull/15',
     readMeLink: 'https://github.com/tryber/sd-09-project-shopping-cart',
   },
+  {
+    id:'project12',
+    name:'Projeto 1.12 - Jest',
+    dataDaEntrega: '08/02/2021',
+    dataDaVersao: '08/02/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-jest/pull/6',
+    readMeLink: 'https://github.com/tryber/sd-09-project-jest',
+  }
 ];
 
-const myProjectsWorking = [
+const workingProjects_module1 = [
   {
     id:'project01',
     link:'../01_projetos/project_01_lesson_learned/index.html',
@@ -124,6 +132,7 @@ const myProjectsWorking = [
   },
 ]
 
+const tableHeaders = ['Nome', 'Data da Entrega', 'Data da Versão Atual', 'Link do Repositório', 'ReadMe'];
 // {
   //   id:'',
   //   name:'',
@@ -138,7 +147,22 @@ const myProjectsWorking = [
 //     link:'',
 //   },
 
-const createProjectTable = () => {
+const createTableStarter = () => {
+  const table = document.createElement('table');
+  table.className = 'projectTable';
+  document.querySelector('.rightSidebar').appendChild(table);
+
+  const tableHeader = document.createElement('tr');
+  tableHeader.className = 'tableHeader';
+  document.querySelector('.projectTable').appendChild(tableHeader);
+  tableHeaders.forEach((item) => {
+    const header = document.createElement('th');
+    header.innerText = item;
+    document.querySelector('.tableHeader').appendChild(header);
+  })
+}
+
+const createProjectTable = (myProjects) => {
 myProjects.forEach((project) => {
   const { id, name, dataDaEntrega, dataDaVersao, repoLink, readMeLink} = project;
 
@@ -183,8 +207,8 @@ myProjects.forEach((project) => {
 });
 }
 
-const linkProjectsOnTable = () =>{
-myProjectsWorking.forEach((project) => {
+const linkProjectsOnTable = (myWorkingProjects) =>{
+myWorkingProjects.forEach((project) => {
   const { id, link } = project;
   const myLink = document.createElement('a');
   myLink.target= '_blank';
@@ -196,8 +220,8 @@ myProjectsWorking.forEach((project) => {
 })
 }
 
+createTableStarter();
 
-createProjectTable();
+createProjectTable(projects_module1);
 
-linkProjectsOnTable();
-
+linkProjectsOnTable(workingProjects_module1);
