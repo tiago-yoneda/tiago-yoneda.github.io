@@ -94,7 +94,15 @@ const projects_module1= [
     dataDaVersao: '08/02/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-jest/pull/6',
     readMeLink: 'https://github.com/tryber/sd-09-project-jest',
-  }
+  },
+  {
+    id:'project13',
+    name:'Projeto 2.1 - Movie Card Library',
+    dataDaEntrega: '12/02/2021',
+    dataDaVersao: '12/02/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-movie-cards-library/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-project-movie-cards-library/',
+  },
 ];
 
 const workingProjects_module1 = [
