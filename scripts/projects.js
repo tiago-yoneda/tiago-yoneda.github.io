@@ -103,6 +103,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-project-movie-cards-library/pull/2',
     readMeLink: 'https://github.com/tryber/sd-09-project-movie-cards-library/',
   },
+  {
+    id:'project14',
+    name:'Projeto 2.2 - Movie Card Library Stateful',
+    dataDaEntrega: '25/02/2021',
+    dataDaVersao: '25/02/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-project-movie-cards-library-stateful/',
+  },
 ];
 
 const workingProjects_module1 = [
