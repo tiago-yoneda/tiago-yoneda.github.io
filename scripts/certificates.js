@@ -19,6 +19,10 @@ const certificates = [
     name: 'Digital House novas Tecnologias',
     link: './03_certificates/Digital_House_novas_tecnologias.pdf',
   },
+  {
+    name: "Tamboro - Desafio Mapa de Talentos",
+    link: './03_certificates/Tamboro_mapa_de_Talentos.pdf',
+  },
 ]
 
 const createCertificatesTable = (certificates) => {
