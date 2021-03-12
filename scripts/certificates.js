@@ -23,6 +23,10 @@ const certificates = [
     name: "Tamboro - Desafio Mapa de Talentos",
     link: './03_certificates/Tamboro_mapa_de_Talentos.pdf',
   },
+  {
+    name: 'Trybe - Módulo 1 - Fundamentos do Desenvolvimento Web',
+    link:'./03_certificates/Certificado_modulo_1.pdf',
+  },
 ]
 
 const createCertificatesTable = (certificates) => {

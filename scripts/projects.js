@@ -111,6 +111,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/2',
     readMeLink: 'https://github.com/tryber/sd-09-project-movie-cards-library-stateful/',
   },
+  {
+    id:'project15',
+    name:'Projeto 2.3 - Movie Card Library Crud',
+    dataDaEntrega: '08/03/2021',
+    dataDaVersao: '08/03/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/4',
+    readMeLink: 'https://github.com/tryber/sd-09-project-movie-card-library-crud/',
+  },
 ];
 
 const workingProjects_module1 = [
@@ -156,7 +164,7 @@ const tableHeaders = ['Nome', 'Data da Entrega', 'Data da Versão Atual', 'Link 
   //   dataDaVersao: '',
   //   repoLink: '',
   //   readMeLink: '',
-  // }
+  // },
 
 //   {
 //     id:'',
