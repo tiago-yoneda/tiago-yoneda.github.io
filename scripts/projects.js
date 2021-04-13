@@ -119,6 +119,38 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/4',
     readMeLink: 'https://github.com/tryber/sd-09-project-movie-card-library-crud/',
   },
+  {
+    id:'project16',
+    name:'Projeto 2.4 - em grupo - Frontend Online Store',
+    dataDaEntrega: '12/03/2021',
+    dataDaVersao: '12/03/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-frontend-online-store/pull/454',
+    readMeLink: 'https://github.com/tryber/sd-09-project-frontend-online-store/',
+  },
+  {
+    id:'project17',
+    name:'Project 2.5 - React Testting Library',
+    dataDaEntrega: '22/03/2021',
+    dataDaVersao: '22/03/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-react-testing-library/pull/58',
+    readMeLink: 'https://github.com/tryber/sd-09-project-react-testing-library/',
+  },
+  {
+    id:'project18',
+    name:'Project 2.6 - TrybeWallet',
+    dataDaEntrega: '06/04/2021',
+    dataDaVersao: '06/04/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-trybewallet/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-project-trybewallet/',
+  },
+  {
+    id:'project19',
+    name:'Projeto 2.7 - em grupo - Trivia React Redux',
+    dataDaEntrega: '12/04/2021',
+    dataDaVersao: '12/04/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-trivia-react-redux/pull/453',
+    readMeLink: 'https://github.com/tryber/sd-09-project-trivia-react-redux/',
+  },
 ];
 
 const workingProjects_module1 = [
