@@ -151,6 +151,22 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-project-trivia-react-redux/pull/453',
     readMeLink: 'https://github.com/tryber/sd-09-project-trivia-react-redux/',
   },
+  {
+    id:'project20',
+    name:'Projeto 2.8 - Projeto Star Wars Planet Search',
+    dataDaEntrega: '20/04/2021',
+    dataDaVersao: '20/04/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-starwars-planets-search/pull/3',
+    readMeLink: 'https://github.com/tryber/sd-09-project-starwars-planets-search/',
+  },
+  {
+    id:'project21',
+    name:'Projeto 2.9 - em grupo - Project Recipes App',
+    dataDaEntrega: '07/05/2021',
+    dataDaVersao: '07/05/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-recipes-app/pull/11',
+    readMeLink: 'https://github.com/tryber/sd-09-project-recipes-app/',
+  },
 ];
 
 const workingProjects_module1 = [
