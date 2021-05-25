@@ -167,6 +167,22 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-project-recipes-app/pull/11',
     readMeLink: 'https://github.com/tryber/sd-09-project-recipes-app/',
   },
+  {
+    id:'project22',
+    name:'Project 3.1 - Project All for One',
+    dataDaEntrega: '18/05/2021',
+    dataDaVersao: '18/05/2021',
+    repoLink: 'https://github.com/tryber/sd-09-mysql-all-for-one/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-mysql-all-for-one/',
+  },
+  {
+    id:'project23',
+    name:'Project 3.2 - Project Vocabulary Booster',
+    dataDaEntrega: '24/05/2021',
+    dataDaVersao: '24/05/2021',
+    repoLink: 'https://github.com/tryber/sd-09-mysql-vocabulary-booster/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-mysql-vocabulary-booster/',
+  },
 ];
 
 const workingProjects_module1 = [
