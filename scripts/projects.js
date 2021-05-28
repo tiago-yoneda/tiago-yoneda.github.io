@@ -183,6 +183,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-mysql-vocabulary-booster/pull/2',
     readMeLink: 'https://github.com/tryber/sd-09-mysql-vocabulary-booster/',
   },
+{
+    id:'project24',
+    name:'Projeto 3.3 - Project One for All',
+    dataDaEntrega: '28/05/2021',
+    dataDaVersao: '28/05/2021',
+    repoLink: 'https://github.com/tryber/sd-09-mysql-one-for-all/pull/3',
+    readMeLink: 'https://github.com/tryber/sd-09-mysql-one-for-all/',
+  },
 ];
 
 const workingProjects_module1 = [
