@@ -197,7 +197,7 @@ const projects_module1= [
     dataDaEntrega: '02/06/2021',
     dataDaVersao: '02/06/2021',
     repoLink: 'https://github.com/tryber/sd-09-mongodb-dataflights/pull/3',
-    readMeLink: 'https://github.com/tryber/sd-09-mongodb-dataflights',
+    readMeLink: 'https://github.com/tryber/sd-09-mongodb-dataflights/',
   },
 ];
 
