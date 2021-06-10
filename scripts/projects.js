@@ -199,6 +199,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-mongodb-dataflights/pull/3',
     readMeLink: 'https://github.com/tryber/sd-09-mongodb-dataflights/',
   },
+  {
+    id:'project26',
+    name:'Project 3.5 - Project MongoDB Commerce',
+    dataDaEntrega: '10/06/2021',
+    dataDaVersao: '10/06/2021',
+    repoLink: 'https://github.com/tryber/sd-09-mongodb-commerce/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-mongodb-commerce/',
+  },
 ];
 
 const workingProjects_module1 = [
