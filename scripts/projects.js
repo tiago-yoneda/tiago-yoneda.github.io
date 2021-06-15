@@ -207,6 +207,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-mongodb-commerce/pull/2',
     readMeLink: 'https://github.com/tryber/sd-09-mongodb-commerce/',
   },
+  {
+    id:'Project27',
+    name:'Project 3.6 - Project MongoDB Aggregations',
+    dataDaEntrega: '15/06/2021',
+    dataDaVersao: '15/06/2021',
+    repoLink: 'https://github.com/tryber/sd-09-mongodb-aggregations/pull/1',
+    readMeLink: 'https://github.com/tryber/sd-09-mongodb-aggregations/',
+  },
 ];
 
 const workingProjects_module1 = [
