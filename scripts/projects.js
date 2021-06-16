@@ -129,7 +129,7 @@ const projects_module1= [
   },
   {
     id:'project17',
-    name:'Project 2.5 - React Testting Library',
+    name:'Projeto 2.5 - React Testting Library',
     dataDaEntrega: '22/03/2021',
     dataDaVersao: '22/03/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-react-testing-library/pull/58',
@@ -137,7 +137,7 @@ const projects_module1= [
   },
   {
     id:'project18',
-    name:'Project 2.6 - TrybeWallet',
+    name:'Projeto 2.6 - TrybeWallet',
     dataDaEntrega: '06/04/2021',
     dataDaVersao: '06/04/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-trybewallet/pull/2',
@@ -169,7 +169,7 @@ const projects_module1= [
   },
   {
     id:'project22',
-    name:'Project 3.1 - Project All for One',
+    name:'Projeto 3.1 - Project All for One',
     dataDaEntrega: '18/05/2021',
     dataDaVersao: '18/05/2021',
     repoLink: 'https://github.com/tryber/sd-09-mysql-all-for-one/pull/2',
@@ -177,7 +177,7 @@ const projects_module1= [
   },
   {
     id:'project23',
-    name:'Project 3.2 - Project Vocabulary Booster',
+    name:'Projeto 3.2 - Project Vocabulary Booster',
     dataDaEntrega: '24/05/2021',
     dataDaVersao: '24/05/2021',
     repoLink: 'https://github.com/tryber/sd-09-mysql-vocabulary-booster/pull/2',
@@ -201,7 +201,7 @@ const projects_module1= [
   },
   {
     id:'project26',
-    name:'Project 3.5 - Project MongoDB Commerce',
+    name:'Projeto 3.5 - Project MongoDB Commerce',
     dataDaEntrega: '10/06/2021',
     dataDaVersao: '10/06/2021',
     repoLink: 'https://github.com/tryber/sd-09-mongodb-commerce/pull/2',
@@ -209,7 +209,7 @@ const projects_module1= [
   },
   {
     id:'Project27',
-    name:'Project 3.6 - Project MongoDB Aggregations',
+    name:'Projeto 3.6 - Project MongoDB Aggregations',
     dataDaEntrega: '15/06/2021',
     dataDaVersao: '15/06/2021',
     repoLink: 'https://github.com/tryber/sd-09-mongodb-aggregations/pull/1',
