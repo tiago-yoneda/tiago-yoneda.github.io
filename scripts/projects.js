@@ -215,6 +215,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-mongodb-aggregations/pull/1',
     readMeLink: 'https://github.com/tryber/sd-09-mongodb-aggregations/',
   },
+  {
+    id:'Project28',
+    name:'Projeto 3.7 - Project Talker Manager',
+    dataDaEntrega: '25/06/2021',
+    dataDaVersao: '25/06/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-talker-manager/pull/3',
+    readMeLink: 'https://github.com/tryber/sd-09-project-talker-manager/',
+  },
 ];
 
 const workingProjects_module1 = [
