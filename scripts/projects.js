@@ -223,6 +223,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-project-talker-manager/pull/3',
     readMeLink: 'https://github.com/tryber/sd-09-project-talker-manager/',
   },
+  {
+    id:'Project29',
+    name:'Projeto 3.8 - Project Store Manager',
+    dataDaEntrega: '11/07/2021',
+    dataDaVersao: '11/07/2021',
+    repoLink: 'https://github.com/tryber/sd-09-store-manager/pull/3',
+    readMeLink: 'https://github.com/tryber/sd-09-store-manager/',
+  },
 ];
 
 const workingProjects_module1 = [
