@@ -231,6 +231,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-store-manager/pull/3',
     readMeLink: 'https://github.com/tryber/sd-09-store-manager/',
   },
+  {
+    id:'Project30',
+    name:'Projeto 3.9 - ',
+    dataDaEntrega: '16/07/2021',
+    dataDaVersao: '16/07/2021',
+    repoLink: 'https://github.com/tryber/sd-09-cookmaster-v2/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-cookmaster-v2/',
+  },
 ];
 
 const workingProjects_module1 = [
@@ -276,7 +284,7 @@ const tableHeaders = ['Nome', 'Data da Entrega', 'Data da Versão Atual', 'Link 
   //   dataDaVersao: '',
   //   repoLink: '',
   //   readMeLink: '',
-  // },
+// },
 
 //   {
 //     id:'',
