@@ -233,7 +233,7 @@ const projects_module1= [
   },
   {
     id:'Project30',
-    name:'Projeto 3.9 - Projeto Cookmaster',
+    name:'Projeto 3.9 - Project Cookmaster',
     dataDaEntrega: '16/07/2021',
     dataDaVersao: '16/07/2021',
     repoLink: 'https://github.com/tryber/sd-09-cookmaster-v2/pull/2',
