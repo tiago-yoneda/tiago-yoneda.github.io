@@ -274,6 +274,10 @@ const workingProjects_module1 = [
     id:'project11',
     link:'../01_projetos/project_11_shopping_cart/index.html',
   },
+    {
+    id:'project21',
+    link:'https://trybe-t9-group-23-recipes-app.herokuapp.com/',
+  },
 ]
 
 const tableHeaders = ['Nome', 'Data da Entrega', 'Data da Versão Atual', 'Link do Repositório', 'ReadMe'];
