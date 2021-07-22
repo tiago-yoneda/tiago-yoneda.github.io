@@ -240,7 +240,7 @@ const projects_module1= [
     readMeLink: 'https://github.com/tryber/sd-09-cookmaster-v2/',
   },
   {
-    id:'Project31',
+    id:'Project31_1',
     name:'Projeto 3.10.1 - Project Stranger Things BackEnd',
     dataDaEntrega: '22/07/2021',
     dataDaVersao: '22/07/2021',
@@ -248,7 +248,7 @@ const projects_module1= [
     readMeLink: 'https://github.com/tryber/sd-09-stranger-things-backend/',
   },
   {
-    id:'Project31',
+    id:'Project31_2',
     name:'Projeto 3.10.2 - Project Stranger Things FrontEnd',
     dataDaEntrega: '22/07/2021',
     dataDaVersao: '22/07/2021',
