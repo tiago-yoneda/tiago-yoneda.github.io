@@ -255,6 +255,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-stranger-things-frontend/pull/2',
     readMeLink: 'https://github.com/tryber/sd-09-stranger-things-frontend/',
   },
+  {
+    id:'Project32',
+    name:'Projeto 3.11 - Project Blogs API',
+    dataDaEntrega: '30/07/2021',
+    dataDaVersao: '30/07/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-blogs-api/pull/1',
+    readMeLink: 'https://github.com/tryber/sd-09-project-blogs-api/',
+},
 ];
 
 const workingProjects_module1 = [
