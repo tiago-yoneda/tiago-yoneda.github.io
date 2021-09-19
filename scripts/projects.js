@@ -263,30 +263,30 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-project-blogs-api/pull/1',
     readMeLink: 'https://github.com/tryber/sd-09-project-blogs-api/',
 },
-{
+  {
     id:'Project33',
     name:'Projeto 3.12 - Projeto Webchat',
     dataDaEntrega: '16/08/2021',
     dataDaVersao: '16/08/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-webchat/pull/2',
     readMeLink: 'https://github.com/tryber/sd-09-project-webchat/',
-},
-{
+  },
+  {
     id:'Project34',
     name:'Projeto 3.13 - em grupo - Projeto Delivery App',
     dataDaEntrega: '14/09/2021',
     dataDaVersao: '14/09/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-delivery-app/pull/17',
     readMeLink: 'https://github.com/tryber/sd-09-project-delivery-app/',
-},
-{
+  },
+  {
     id:'Project35',
     name:'Projeto 4.1 - Job Insights',
     dataDaEntrega: '18/09/2021',
     dataDaVersao: '18/09/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-job-insights/pull/1',
     readMeLink: 'https://github.com/tryber/sd-09-project-job-insights/',
-},
+  },
 ];
 
 const workingProjects_module1 = [
@@ -322,9 +322,13 @@ const workingProjects_module1 = [
     id:'project11',
     link:'../01_projetos/project_11_shopping_cart/index.html',
   },
-    {
+  {
     id:'project21',
     link:'https://trybe-t9-group-23-recipes-app.herokuapp.com/',
+  },
+  {
+    id:'project34',
+    link:'https://yoneda-delivery-app-front-end.herokuapp.com/',
   },
 ]
 
