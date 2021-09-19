@@ -31,6 +31,10 @@ const certificates = [
     name: 'Trybe - Módulo 2 - Desenvolvimento Front-End',
     link:'./03_certificates/Certificado_modulo_2.pdf',
   },
+  {
+    name: 'Trybe - Módulo 3 - Desenvolvimento Back-End',
+    link:'./03_certificate/Certificado_modulo_3.pdf'
+  }
 ]
 
 const createCertificatesTable = (certificates) => {
