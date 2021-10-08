@@ -227,16 +227,16 @@ const projects_module1= [
     id:'Project29',
     name:'Projeto 3.8 - Project Store Manager',
     dataDaEntrega: '11/07/2021',
-    dataDaVersao: '11/07/2021',
-    repoLink: 'https://github.com/tryber/sd-09-store-manager/pull/3',
+    dataDaVersao: '07/10/2021',
+    repoLink: 'https://github.com/tiago-yoneda/trybe-project-store-manager',
     readMeLink: 'https://github.com/tryber/sd-09-store-manager/',
   },
   {
     id:'Project30',
     name:'Projeto 3.9 - Project Cookmaster',
     dataDaEntrega: '16/07/2021',
-    dataDaVersao: '16/07/2021',
-    repoLink: 'https://github.com/tryber/sd-09-cookmaster-v2/pull/2',
+    dataDaVersao: '07/10/2021',
+    repoLink: 'https://github.com/tiago-yoneda/trybe-project-cookmaster',
     readMeLink: 'https://github.com/tryber/sd-09-cookmaster-v2/',
   },
   {
@@ -286,6 +286,14 @@ const projects_module1= [
     dataDaVersao: '18/09/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-job-insights/pull/1',
     readMeLink: 'https://github.com/tryber/sd-09-project-job-insights/',
+  },
+  {
+    id:'Project36',
+    name:'Projeto 4.2 - Inventory Report',
+    dataDaEntrega: '07/10/2021',
+    dataDaVersao: '07/10/2021',
+    repoLink: 'https://github.com/tryber/sd-09-inventory-report/',
+    readMeLink: 'https://github.com/tryber/sd-09-inventory-report/pull/1',
   },
 ];
 
