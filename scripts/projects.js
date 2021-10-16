@@ -295,6 +295,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-inventory-report/',
     readMeLink: 'https://github.com/tryber/sd-09-inventory-report/pull/1',
   },
+{
+    id:'Project37',
+    name:'Projeto 4.3 - Tech News',
+    dataDaEntrega: '16/10/2021',
+    dataDaVersao: '16/10/2021',
+    repoLink: 'https://github.com/tryber/sd-09-tech-news/',
+    readMeLink: 'https://github.com/tryber/sd-09-tech-news/pull/2',
+},
 ];
 
 const workingProjects_module1 = [
