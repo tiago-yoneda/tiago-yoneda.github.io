@@ -292,17 +292,17 @@ const projects_module1= [
     name:'Projeto 4.2 - Inventory Report',
     dataDaEntrega: '07/10/2021',
     dataDaVersao: '07/10/2021',
-    repoLink: 'https://github.com/tryber/sd-09-inventory-report/',
-    readMeLink: 'https://github.com/tryber/sd-09-inventory-report/pull/1',
+    repoLink: 'https://github.com/tryber/sd-09-inventory-report/pull/1',
+    readMeLink: 'https://github.com/tryber/sd-09-inventory-report/',
   },
-{
+  {
     id:'Project37',
     name:'Projeto 4.3 - Tech News',
     dataDaEntrega: '16/10/2021',
     dataDaVersao: '16/10/2021',
-    repoLink: 'https://github.com/tryber/sd-09-tech-news/',
-    readMeLink: 'https://github.com/tryber/sd-09-tech-news/pull/2',
-},
+    repoLink: 'https://github.com/tryber/sd-09-tech-news/pull/2',
+    readMeLink: 'https://github.com/tryber/sd-09-tech-news/',
+  },
 ];
 
 const workingProjects_module1 = [
