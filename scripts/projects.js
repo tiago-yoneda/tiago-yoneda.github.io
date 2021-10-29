@@ -303,6 +303,14 @@ const projects_module1= [
     repoLink: 'https://github.com/tryber/sd-09-tech-news/pull/2',
     readMeLink: 'https://github.com/tryber/sd-09-tech-news/',
   },
+  {
+    id:'Project38',
+    name:'Projeto 4.4 - Algorithms',
+    dataDaEntrega: '26/10/2021',
+    dataDaVersao: '26/10/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-algorithms/pull/1',
+    readMeLink: 'https://github.com/tryber/sd-09-project-algorithms/',
+},
 ];
 
 const workingProjects_module1 = [
