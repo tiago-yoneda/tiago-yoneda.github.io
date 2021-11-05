@@ -34,6 +34,10 @@ const certificates = [
   {
     name: 'Trybe - Módulo 3 - Desenvolvimento Back-End',
     link:'./03_certificate/Certificado_modulo_3.pdf'
+  },
+  {
+    name: 'Udemy - 2021 Complete Python Bootcamp',
+    link:'./03_certificate/udemy_python_bootcamp.pdf'
   }
 ]
 
