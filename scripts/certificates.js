@@ -38,6 +38,10 @@ const certificates = [
   {
     name: 'Udemy - 2021 Complete Python Bootcamp',
     link:'./03_certificates/udemy_python_bootcamp.pdf'
+  },
+  {
+    name:'Trybe - Aceleração Java',
+    link:'./03_certificates/aceleracao_java.pdf'
   }
 ]
 
