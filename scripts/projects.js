@@ -310,7 +310,23 @@ const projects_module1= [
     dataDaVersao: '26/10/2021',
     repoLink: 'https://github.com/tryber/sd-09-project-algorithms/pull/1',
     readMeLink: 'https://github.com/tryber/sd-09-project-algorithms/',
-},
+  },
+  {
+    id:'Project39',
+    name:'Projeto 4.5 - Restaurant Orders',
+    dataDaEntrega: '10/11/2021',
+    dataDaVersao: '10/11/2021',
+    repoLink: 'https://github.com/tryber/sd-09-restaurant-orders/pull/1',
+    readMeLink: 'https://github.com/tryber/sd-09-restaurant-orders/',
+  },
+  {
+    id:'Project40',
+    name:'Projeto 4.6 - TING',
+    dataDaEntrega: '18/11/2021',
+    dataDaVersao: '18/11/2021',
+    repoLink: 'https://github.com/tryber/sd-09-project-ting/pull/1',
+    readMeLink: 'https://github.com/tryber/sd-09-project-ting/',
+  },
 ];
 
 const workingProjects_module1 = [
