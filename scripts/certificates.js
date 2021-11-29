@@ -42,6 +42,10 @@ const certificates = [
   {
     name:'Trybe - Aceleração Java',
     link:'./03_certificates/aceleracao_java.pdf'
+  },
+  {
+    name: 'Udemy - Agile Fundamentals: Including Scrum and Kanban - 2021',
+    link: './03_certificates/udemy_agile_fundamentals.pdf'
   }
 ]
 
