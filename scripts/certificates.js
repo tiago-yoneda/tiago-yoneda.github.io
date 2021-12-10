@@ -46,6 +46,14 @@ const certificates = [
   {
     name: 'Udemy - Agile Fundamentals: Including Scrum and Kanban - 2021',
     link: './03_certificates/udemy_agile_fundamentals.pdf'
+  },
+  {
+    name: 'Trybe - Módulo 4 - Ciência da Computação',
+    link: './03_certificates/Certificado_modulo_4.pdf'
+  },
+  {
+    name:'Trybe - Certificado de Conclusão',
+    link:'./03_certificates/Certificado_Trybe_Conclusao.pdf'
   }
 ]
 
