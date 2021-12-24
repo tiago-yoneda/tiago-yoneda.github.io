@@ -54,6 +54,10 @@ const certificates = [
   {
     name:'Trybe - Certificado de Conclusão',
     link:'./03_certificates/Certificado_Trybe_Conclusao.pdf'
+  },
+  {
+    name:'Meliuz - Tech experience',
+    link:'./03_certificates/meliuz_tech_experience.pdf'
   }
 ]
 
